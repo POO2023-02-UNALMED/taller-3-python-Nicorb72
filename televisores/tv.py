@@ -6,6 +6,7 @@ class TV:
         self._precio = 500
         self._estado = estado
         self._volumen = 1
+        self._control = None
         TV._numTV +=1
 # Get para para los atributos marca, canal, precio, volumen, estado y control.
 
